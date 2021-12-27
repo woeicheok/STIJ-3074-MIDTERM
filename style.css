@@ -1,0 +1,27 @@
+@media screen and (min-width: 1920px){
+    body{
+            max-width: 65%;
+            margin: auto;
+        }
+    }
+
+@media screen and (min-width: 700px){
+    .form-container{
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .w3-grif-template {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .w3-grif-template {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
